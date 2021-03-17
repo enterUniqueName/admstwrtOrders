@@ -1,0 +1,341 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Printable HTML Form for a Sewer Locate Card">
+  <meta name="author" content="Steele Media Solutions">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sewer Locate Card</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body class="letter">
+
+    <form class="sewer--form sheet padding-10mm container">
+
+        <h4 style="text-transform: uppercase; letter-spacing: 0.1rem;">Sewer Locate Card</h4>
+
+        <fieldset class="sewer--form__fieldset row">
+
+            <!-- Contractor -->
+            <div class="sewer--form__input-group six columns flex">
+                <label class="sewer--form__label" for="contractor">Contractor:</label>
+                <input class="sewer--form__input" id="contractor" name="contractor" type="text" value=""> <!-- Edit value -->
+            </div>
+
+            <!-- Date -->
+            <div class="sewer--form__input-group six columns flex">            
+                <label class="sewer--form__label" for="date">Date:</label>
+                <input class="sewer--form__input" id="date" name="date" type="text" value=""> <!-- Edit value -->
+            </div>
+
+        </fieldset>
+
+        <fieldset class="sewer--form__fieldset row">
+
+            <!-- City -->
+            <div class="sewer--form__input-group six columns flex">
+                <label class="sewer--form__label" for="city">City:</label>
+                <input class="sewer--form__input" id="city" name="city" type="text" value=""> <!-- Edit value -->
+            </div>
+
+            <!-- Work Order Number -->
+            <div class="sewer--form__input-group six columns flex">      
+                <label class="sewer--form__label" for="woNum">WO #:</label>
+                <input class="sewer--form__input" id="woNum" name="woNum" type="text" value=""> <!-- Edit value -->
+            </div>  
+
+        </fieldset>
+
+        <fieldset class="sewer--form__fieldset row">
+
+            <!-- Street Address -->
+            <div class="sewer--form__input-group twelve columns flex">
+                <label class="sewer--form__label" for="address">Street Address:</label>
+                <input class="sewer--form__input" id="address" name="address" type="text" value=""> <!-- Edit value -->
+            </div>
+
+        </fieldset>
+
+        <fieldset class="sewer--form__fieldset row">
+
+            <!-- Camera Operator -->
+            <div class="sewer--form__input-group four columns flex">
+                <label class="sewer--form__label" for="cameraOp">Camera Op:</label>
+                <input class="sewer--form__input short" id="cameraOp" name="cameraOp" type="text" value=""> <!-- Edit value -->
+            </div>
+
+            <!-- Locator -->
+            <div class="sewer--form__input-group four columns flex">
+                <label class="sewer--form__label" for="locator">Locator:</label>
+                <input class="sewer--form__input short" id="locator" name="locator" type="text" value=""> <!-- Edit value -->
+            </div>
+
+            <!-- Push Camera Tech -->
+            <div class="sewer--form__input-group four columns flex">
+                <label class="sewer--form__label" for="pushCamTech">PushCam Tech:</label>
+                <input class="sewer--form__input short" id="pushCamTech" name="pushCamTech" type="text" value=""> <!-- Edit value -->
+            </div>
+
+        </fieldset>
+
+        <hr/>
+
+        <fieldset class="sewer--form__fieldset row">
+
+            <!-- Is Locate Complete -->
+            <div class="sewer--form__input-group three columns">
+                <h6>Is Locate Complete?</h6>
+
+                <!-- Yes -->
+                <label class="sewer--form__label checkbox-container" for="yes">
+                    <!-- Change Value to "1" for checked -->
+                    <input class="sewer--form__input" id="yes" name="yes" type="checkbox" value="0">
+                    <span class="checkmark yellow"></span>
+                    Yes
+                </label>
+
+                <!-- No -->
+                <label class="sewer--form__label checkbox-container" for="no">
+                    <!-- Change Value to "1" for checked -->
+                    <input class="sewer--form__input" id="no" name="no" type="checkbox" value="0"> 
+                    <span class="checkmark yellow"></span>
+                    No
+                </label>
+            </div>
+
+            <!-- How was locate performed -->
+            <div class="sewer--form__input-group five columns">
+                <h6>How was locate performed?</h6>
+                <span class="caption-text">Date</span>
+
+                <!-- Lateral Launch (Text Input for Date, Checkbox Input for binary value of true/false) -->
+                <input type="text" class="sewer--form__input short u-pull-right" id="lateralLaunchDate" name="lateralLaunchDate" value=""> <!-- Edit value -->
+                <label class="sewer--form__label checkbox-container" for="lateralLaunch">
+                    <!-- Change Value to "1" for checked -->
+                    <input class="sewer--form__input" id="lateralLaunch" name="lateralLaunch" type="checkbox" value="0">
+                    <span class="checkmark pink"></span>
+                    Lateral Launch - LLC
+                </label>
+                <div class="u-cf"></div>
+
+                <!-- Push Camera (Text Input for Date, Checkbox Input for binary value of true/false) -->
+                <input type="text" class="sewer--form__input short u-pull-right" id="pushCamDate" name="pushCamDate" value=""> <!-- Edit value -->
+                <label class="sewer--form__label checkbox-container" for="pushCam">
+                    <!-- Change Value to "1" for checked -->
+                    <input class="sewer--form__input" id="pushCam" name="pushCam" type="checkbox" value="0">
+                    <span class="checkmark pink"></span>
+                    Push Camera - ELD
+                </label>
+                <div class="u-cf"></div>
+
+                <!-- Building Verify (Text Input for Date, Checkbox Input for binary value of true/false) -->
+                <input type="text" class="sewer--form__input short u-pull-right" id="buildingVerifyDate" name="buildingVerifyDate" value=""> <!-- Edit value -->
+                <label class="sewer--form__label checkbox-container" for="buildingVerify">
+                    <!-- Change Value to "1" for checked -->
+                    <input class="sewer--form__input" id="buildingVerify" name="buildingVerify" type="checkbox" value="0">
+                    <span class="checkmark pink"></span>
+                    Building Verify - BV
+                </label>
+                <div class="u-cf"></div>
+
+            </div>
+
+            <!-- What kind of locate is this -->
+            <div class="sewer--form__input-group four columns">
+                <h6>What kind of locate is this?</h6>
+
+                <!-- Target / Renewal -->
+                <label class="sewer--form__label checkbox-container" for="targetRenewal">
+                    <!-- Change Value to "1" for checked -->
+                    <input class="sewer--form__input" id="targetRenewal" name="targetRenewal" type="checkbox" value="0">
+                    <span class="checkmark blue"></span>
+                    Target / Renewal
+                </label>
+
+                <!-- Adjacent / No Action -->
+                <label class="sewer--form__label checkbox-container" for="adjacentNoAction">
+                    <!-- Change Value to "1" for checked -->
+                    <input class="sewer--form__input" id="adjacentNoAction" name="adjacentNoAction" type="checkbox" value="0">
+                    <span class="checkmark blue"></span>
+                    Adjacent / No Action
+                </label>
+
+            </div>
+
+        </fieldset>
+            
+        <fieldset class="sewer--form__fieldset row">
+
+            <div class="sewer--form__input-group twelve columns flex">
+
+                <!-- Field Leader Responsible for Approval -->
+                <label class="sewer--form__label" for="fieldLeader">Field Leader Responsible for Approval:</label>
+                <input class="sewer--form__input" id="fieldLeader" 
+                name="fieldLeader" type="text" value=""> <!-- Edit value -->
+
+            </div>
+
+        </fieldset>
+
+        <fieldset class="sewer--form__fieldset row">
+
+            <div class="sewer--form__input-group twelve columns flex">
+
+                <!-- Comments -->
+                <label class="sewer--form__label" style="z-index:10; box-shadow: inset 0px -1px 0px 1px white;" for="fieldLeader">Comments/Issues - Log of Actions Taken:</label>
+                <textarea class="sewer--form__input notes u-full-width" id="fieldLeader" name="fieldLeader" type="textarea" rows="4"><!-- Edit Value Here for Comments --></textarea>
+                <div class="textarea-background">
+                    <hr class="textarea-lines"/>
+                    <hr class="textarea-lines"/>
+                    <hr class="textarea-lines"/>
+                    <hr class="textarea-lines"/>
+                </div>
+
+            </div>
+
+        </fieldset>
+
+        <div class="sewer-grid-parent">
+
+            <div class="map-container">
+
+                <!-- Map -->
+                <img class="map" src="Source-Material/samplemap-Edit.png" alt="">
+
+            </div>
+
+            <div class="map-name flex">
+
+                <label class="sewer--form__label" for="street">Street:</label>
+
+                <!-- Street Name -->
+                <input class="sewer--form__input" id="street" 
+                name="street" type="text" value=""> <!-- Edit value -->
+
+            </div>
+
+            <div class="table-header">
+
+                <div class="div1"><p class="text-point">POINT</p></div>
+                <div class="div2 flex"><p>MEASUREMENTS</p></div>
+                <div class="div3 flex"><p>Is the lateral greater than 6"?</p></div>
+                <div class="div4 flex"><p>Front & Back</p></div>
+                <div class="div5 flex"><p>Side & Side</p></div>
+                <div class="div6"><p class="text-depth">DEPTH</p></div>
+                <div class="div7 flex"><p class="text-point-details">POINT DETAILS</p></div>
+
+            </div>
+
+            <div class="sewer-table-container">
+
+                <table class="sewer-table n-bordered">
+
+                    <colgroup>
+                        <col span="1" style="width: 44px;">
+                        <col span="1" style="width: 115px;">
+                        <col span="1" style="width: 112px;">
+                        <col span="1" style="width: 51px;">
+                        <col span="1" style="width: 215px;">
+                    </colgroup>
+
+                    <tbody>
+                        <tr class="tableRows">
+                            <td class="attributeRow">A</td>
+                            <td class="attributeRow">0.0' FFB</td>
+                            <td class="attributeRow">22.4' LRB</td>
+                            <td class="attributeRow">6.0'</td>
+                            <td class="attributeRow">Sanitary Tap</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">B</td>
+                            <td class="attributeRow">12.0' FFB</td>
+                            <td class="attributeRow">26.3' LRB</td>
+                            <td class="attributeRow">6.8'</td>
+                            <td class="attributeRow">Intermediate</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">C</td>
+                            <td class="attributeRow">19.0' FFB</td>
+                            <td class="attributeRow">23.9' LRB</td>
+                            <td class="attributeRow">8.0'</td>
+                            <td class="attributeRow">Pump\Backflow Preventer</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>       
+
+        </div>
+
+      </form>
+
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>

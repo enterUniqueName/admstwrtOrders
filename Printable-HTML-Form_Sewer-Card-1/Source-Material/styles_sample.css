@@ -1,0 +1,131 @@
+html {
+    color: black;
+    background: white none repeat scroll 0% 0%;
+}
+
+.divHeader {
+    margin: 10px;
+    padding: 0px;
+    font-family: helvetica, serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.map {
+    border: thin solid black;
+    width: 426px;
+    height: 636px;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.sectionDivision {
+    width: 926px;
+    height: 0px;
+}
+
+#mapAndAttributes {
+    margin-top: 10px;
+    width: 956px;
+}
+
+
+.tableRows {
+    border: 1px solid black;
+}
+
+.infoLabel {
+    text-align: left;
+    font-family: helvetica, serif;
+    font-size: 14px;
+}
+
+.infoLabelBold {
+    font-family: helvetica, serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.infoValue {
+    text-align: right;
+    font-family: helvetica, serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.infoValueUppercase {
+    text-align: right;
+    font-family: helvetica, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.infoValueBold {
+    text-align: right;
+    font-family: helvetica, serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: capitalize;
+}
+
+.infoValueBoldUppercase {
+    text-align: right;
+    font-family: helvetica, serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+
+.infoHeader {
+    text-align: left;
+    column-span: all;
+    font-family: helvetica, serif;
+    font-size: 18px;
+}
+
+.attributeTable {
+    border: thin solid black;
+    text-align: left;
+    margin-left: 18px;
+    margin-top: 10px;
+    width: 477px;
+    font-family: helvetica, serif;
+    font-size: 18px;
+}
+
+.mainBody {
+    margin: 10px;
+    padding: 0px;
+    font-family: helvetica, serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.divFooter {
+    display: table-footer-group;
+}
+
+.attributeRow {
+    border: 1px solid #dddddd;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    font-family: helvetica, serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+.repeaterFill {
+    height: 32px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
