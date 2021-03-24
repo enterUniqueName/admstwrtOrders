@@ -117,15 +117,16 @@ footer {
     width: 100%;
     height: 92%;
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(24, 1fr);
     grid-column-gap: 8px;
     grid-row-gap: 8px; }
 
-.sewer-report_q-one   { grid-area: 1 / 1 / 9 / 3; }
-.sewer-report_q-two   { grid-area: 9 / 1 / 11 / 3; }
-.sewer-report_q-three { grid-area: 11 / 1 / 25 / 2; }
-.sewer-report_q-four  { grid-area: 11 / 2 / 25 / 3; }
+.sewer-report_q-one-a   { grid-area: 1 / 1 / 9 / 6; }
+.sewer-report_q-one-b   { grid-area: 1 / 6 / 9 / 13; }
+.sewer-report_q-two   { grid-area: 9 / 1 / 11 / 13; }
+.sewer-report_q-three { grid-area: 11 / 1 / 25 / 7; }
+.sewer-report_q-four  { grid-area: 11 / 7 / 25 / 13; }
 
 
 
@@ -133,8 +134,8 @@ footer {
 
 /* Quadrant Definitions
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.sewer-report_q-one .section-left,
-.sewer-report_q-one .section-right,
+.sewer-report_q-one-a,
+.sewer-report_q-one-b,
 .sewer-report_q-two,
 .sewer-report_q-three,
 .sewer-report_q-four,
@@ -153,20 +154,18 @@ footer {
 
 /* Quadrant 1 - Location and Work Authorizations
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.sewer-report_q-one {
-    display: flex; }
 
-.sewer-report_q-one .row {
+.sewer-report_q-one-a .row, .sewer-report_q-one-b .row {
     flex: 1; }
 
-.sewer-report_q-one input {
+.sewer-report_q-one-a input, .sewer-report_q-one-b input {
     text-align: right;
 }
 
-.sewer-report_q-one .row:not(:last-child) {
+.sewer-report_q-one-a .row:not(:last-child), .sewer-report_q-one-b .row:not(:last-child) {
     border-bottom: 1px solid #C4C4C4; }
 
-.sewer-report_q-one .row:nth-child(odd) {
+.sewer-report_q-one-a .row:nth-child(odd), .sewer-report_q-one-b .row:nth-child(odd) {
     background: #F9F9F9; }
 
 
@@ -206,3 +205,42 @@ footer {
 .sewer-report_q-four table tbody tr td:nth-child(3) { width: 51px; }
 .sewer-report_q-four table tbody tr td:nth-child(4) { width: 51px; }
 
+
+
+
+
+/* Attachments
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.attachment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.attachment {
+    margin-bottom: 24px;
+    width: 60%;
+    max-height: 300px;
+    display: inline-block;
+    border: 2px solid #C4C4C4;
+    overflow: hidden;
+    border-radius: 6px;
+    position:relative;
+}
+
+.attachment-header {
+    margin-bottom: 0;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6);
+    display: block;
+    width: 100%;
+    padding: 6px;
+    line-height: 18px; }
+
+.attachment img {
+    width: 100%;
+    max-width: 100%;
+    max-height:100%; }
