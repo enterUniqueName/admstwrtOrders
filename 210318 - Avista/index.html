@@ -1,0 +1,383 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <meta name="description" content="Printable HTML Form for Sewer Inspection Report">
+    <meta name="author" content="Steele Media Solutions">
+    <title>Pre-Inspection Sewer Locate Card</title>
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+</head>
+
+<body class="letter">
+
+    <div class="sheet padding-10mm container sewer-report">
+
+        <!-- Header
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="row u-full-width sewer-report_header">
+
+            <div class="row twelve columns u-flex sewer-report_logo-row">
+
+                <img class="sewer-report_avista-logo" src="./assets/ic_avista_logo.jpg">
+
+                <img class="sewer-report_hydromax-logo" src="./assets/ic_hydromax_logo.png">
+
+            </div>
+            
+            <div class="row twelve columns u-flex sewer-report_title-row">
+
+                <h5 class="sewer-report_title">Pre-Inspection <br>Sewer Locate Card</h4>
+
+            </div>
+
+        </div>
+
+        <!-- Main Content
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="sewer-report_content-container">
+
+            <!-- Location and Work Authorizations
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="sewer-report_q-one row twelve columns">
+
+                <div class="section-left six columns">
+
+                    <h6 class="row section-title color-gray">Address Info</h6>
+
+                    <!-- Reference -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Reference">Reference:</label>
+                        <input name="Reference" type="text" value="${digitallocate.referencepoint}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Address -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Address">Address:</label>
+                        <input name="Address" type="text" value="${digitallocate.addressnumber}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Unit -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Unit">Unit:</label>
+                        <input name="Unit" type="text" value="${digitallocate.unit}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Street -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Street">Street:</label>
+                        <input name="Street" type="text" value="${digitallocate.streetname}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- City -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="City">City:</label>
+                        <input name="City" type="text" value="${digitallocate.city}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- State -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="State">State:</label>
+                        <input name="State" type="text" value="${digitallocate.state}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Latitude -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Latitude">Latitude:</label>
+                        <input name="Latitude" type="text" value="${digitallocate.latitude}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Longitude -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Longitude">Longitude:</label>
+                        <input name="Longitude" type="text" value="${digitallocate.longitude}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                </div>
+
+                <div class="section-right six columns">
+
+                    <h6 class="row section-title color-gray">Locate Details</h6>
+
+                    <!-- Locate Complete -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Locate Complete">Locate Complete:</label>
+                        <input name="Locate Complete" type="text" value="${digitallocate.addresscomplete}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Date/Time -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Date/Time">Date/Time:</label>
+                        <input name="Date/Time" type="text" value="${digitallocate.inspectiondate}">
+                        <!-- Edit input's value -->
+                    </div>
+                
+                    <!-- Operator ID -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Operator ID">Operator ID:</label>
+                        <input name="Operator ID" type="text" value="${digitallocate.operator}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Locator ID -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Locator ID">Locator ID:</label>
+                        <input name="Locator ID" type="text" value="${digitallocate.locator}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Work Order ID -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Work Order ID">Work Order ID:</label>
+                        <input name="Work Order ID" type="text" value="${digitallocate.workordernumber}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Method -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Method">Method:</label>
+                        <input name="Method" type="text" value="${digitallocate.locatemethod}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Type of Locate -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Type of Locate">Type of Locate:</label>
+                        <input name="Type of Locate" type="text" value="${digitallocate.locatetype}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Field Leader Approver -->
+                    <div class="row u-flex">
+                        <label class="color-gray" for="Field Leader Approver">Field Leader Approver:</label>
+                        <input name="Field Leader Approver" type="text" value="${digitallocate.fieldleaderapprover}">
+                        <!-- Edit input's value -->
+                    </div>
+
+                </div>
+
+            </div> 
+
+            <div class="sewer-report_q-two row twelve columns">
+
+                <label class="color-gray" for="Locate Comments">Locate Comments:</label>
+                <textarea name="Locate Comments" rows="3" wrap="soft" style="overflow:hidden;resize:none;position: absolute;left: 10mm;text-indent: 130px;padding-top: 2px;width: calc(100% - 20mm);" value="${digitallocate.comments}"></textarea>
+                <!-- Edit input's value -->
+
+            </div>
+
+            <!-- Image
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="sewer-report_q-three">
+
+                <img class="map" src="source_material/sample-map.jpg" alt="">
+                
+            </div> 
+
+            <!-- Point Table
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="sewer-report_q-four">
+    
+                <table class="table">
+
+                    <thead>
+
+                        <tr>
+                            <th class="column-header">Pt.</th>
+                            <th class="column-header">Swing 1</th>
+                            <th class="column-header">Swing 2</th>
+                            <th class="column-header">Depth</th>
+                            <th class="column-header">Point Details</th>
+                        </tr>
+    
+                        </thead>
+
+                    <tbody>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        <tr class="tableRows">
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                            <td class="attributeRow">&nbsp;</td>
+                        </tr>
+                        
+                    </tbody>
+
+                </table>
+
+            </div> 
+
+            <footer class="row u-flex">
+                <p class="footer-info-left">C 2021 HydromaxUSA, LLC</p>
+                <p class="footer-info-right">All data contained herein is proprietary to HydromaxUSA, LLC and Avista Utilities</p>
+            </footer>
+
+        </div>
+
+    </div>
+
+    <div class="sheet padding-10mm container sewer-report">
+
+        <!-- Header
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="row u-full-width sewer-report_header">
+
+            <div class="row twelve columns u-flex sewer-report_logo-row">
+
+                <img class="sewer-report_avista-logo" src="./assets/ic_avista_logo.jpg">
+
+                <img class="sewer-report_hydromax-logo" src="./assets/ic_hydromax_logo.png">
+
+            </div>
+            
+            <div class="row twelve columns u-flex sewer-report_title-row">
+
+                <h5 class="sewer-report_title">Pre-Inspection <br>Sewer Locate Card</h4>
+
+            </div>
+
+        </div>
+
+        <!-- Attachments
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+        <table class="row twelve columns no-border" >
+            <tr class="no-border">
+                <th class="no-border">${attachment.digitallocate}.{location_attachment.html}</th>
+            </tr>
+        </table>
+
+</body>
+</html>
