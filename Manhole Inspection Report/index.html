@@ -37,8 +37,8 @@
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div class="row u-full-width header">
 
-            <h5 class="title">New Leak Report</h5>
-            <p class="subtitle">Evansvill, IN</p>
+            <h5 class="title">Manhole Inspection Report</h5>
+            <p class="subtitle">Evansville, IN</p>
 
         </div>
         <!-- End Header -->
@@ -49,7 +49,7 @@
 
             <!-- Row 1
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row twelve columns">
+            <div class="row row-1 twelve columns">
 
                 <!-- MH ID -->
                 <div class="three columns u-flex">
@@ -84,7 +84,7 @@
 
             <!-- Row 2
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row twelve columns">
+            <div class="row row-2 twelve columns">
 
                 <!-- Address -->
                 <div class="twelve columns u-flex">
@@ -98,7 +98,7 @@
 
             <!-- Row 3
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row twelve columns">
+            <div class="row row-3 twelve columns">
 
                 <!-- Location -->
                 <div class="twelve columns u-flex">
@@ -112,7 +112,7 @@
 
             <!-- Row 4
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row twelve columns">
+            <div class="row row-4 twelve columns">
 
                 <!-- Weather -->
                 <div class="four columns u-flex">
@@ -140,7 +140,7 @@
 
             <!-- Row 5
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row twelve columns">
+            <div class="row row-5 twelve columns">
 
                 <!-- Location Type -->
                 <div class="four columns u-flex">
@@ -168,7 +168,7 @@
 
             <!-- Row 6
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="row twelve columns">
+            <div class="row row-6 twelve columns">
 
                 <!-- Surface Type -->
                 <div class="four columns u-flex">
@@ -197,116 +197,580 @@
         </div> 
         <!-- End Section 1 -->
 
+        <div class="row image-label-row">
+
+            <div class="image-label-container four columns">
+                <label class="image-label">Location Map:</label>
+                <span class="image-name">EditMe</span>
+            </div>
+
+            <div class="image-label-container four columns">
+                <label class="image-label">Area Photo:</label>
+                <span class="image-name">EditMe</span>
+            </div>
+
+            <div class="image-label-container four columns">
+                <label class="image-label">MH Photo:</label>
+                <span class="image-name">EditMe</span>
+            </div>
+
+        </div>
+
         <!-- Section 2 - Image section
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div class="row section section-2">
 
-            <div class="image-container">
-                <label class="image-label"></label>
-                <p class="image-name"></p>
-                <img class="image" src="source_material/sample-map.jpg" alt="">
+            <div class="image-container four columns">
+                <img class="image" src="source_material/sample-photo-1.jpg" alt="">
             </div>
 
-            <div class="image-container">
-                <label class="image-label"></label>
-                <p class="image-name"></p>
-                <img class="image" src="source_material/sample-map.jpg" alt="">
+            <div class="image-container four columns">
+                <img class="image" src="source_material/sample-photo-2.jpg" alt="">
             </div>
 
-            <div class="image-container">
-                <label class="image-label"></label>
-                <p class="image-name"></p>
-                <img class="image" src="source_material/sample-map.jpg" alt="">
+            <div class="image-container four columns">
+                <img class="image" src="source_material/sample-photo-3.jpg" alt="">
             </div>
             
         </div>
         <!-- End Section 2 -->
 
-        <!-- Footer (duplicate for bottom of page 2)
+        <div class="row">
+            <h6 class="section-title">Manhole Components</h6>
+        </div>
+
+        <!-- Section 3 - Three Column Grid Layout
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div class="row u-full-width header">
+        <div class="row section section-3">
 
-            <div class="row twelve columns u-flex logo-row">
+            <!-- Grid 1
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="grid-column grid-column-1 four columns">
 
-                <img class="xcel-logo" src="./assets/ic_xcel_logo.png">
+                <!-- Cover Shape -->
+                <div class="u-flex">
+                    <label for="Cover Shape">Cover Shape:</label>
+                    <input name="Cover Shape" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
 
-                <img class="hydromax-logo" src="./assets/ic_hydromax_logo.png">
+                <!-- Cover Material -->
+                <div class="u-flex">
+                    <label for="Cover Material">Cover Material:</label>
+                    <input name="Cover Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Cover Type -->
+                <div class="u-flex">
+                    <label for="Cover Type">Cover Type:</label>
+                    <input name="Cover Type" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Cover Diameter (in) -->
+                <div class="u-flex">
+                    <label for="Cover Diameter (in)">Cover Diameter (in):</label>
+                    <input name="Cover Diameter (in)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Cover Fit -->
+                <div class="u-flex">
+                    <label for="Cover Fit">Cover Fit:</label>
+                    <input name="Cover Fit" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Cover Condition -->
+                <div class="u-flex">
+                    <label for="Cover Condition">Cover Condition:</label>
+                    <input name="Cover Condition" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Number of Vent Holes -->
+                <div class="u-flex">
+                    <label for="Number of Vent Holes">Number of Vent Holes:</label>
+                    <input name="Number of Vent Holes" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Vent Hole Diameter (in) -->
+                <div class="u-flex">
+                    <label for="Vent Hole Diameter (in)">Vent Hole Diameter (in):</label>
+                    <input name="Vent Hole Diameter (in)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Insert Type -->
+                <div class="u-flex">
+                    <label for="Insert Type">Insert Type:</label>
+                    <input name="Insert Type" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Insert Condition -->
+                <div class="u-flex">
+                    <label for="Insert Condition">Insert Condition:</label>
+                    <input name="Insert Condition" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Adjustment Ring Type -->
+                <div class="u-flex">
+                    <label for="Adjustment Ring Type">Adjustment Ring Type:</label>
+                    <input name="Adjustment Ring Type" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Frame Material -->
+                <div class="u-flex">
+                    <label for="Frame Material">Frame Material:</label>
+                    <input name="Frame Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Frame Condition -->
+                <div class="u-flex">
+                    <label for="Frame Condition">Frame Condition:</label>
+                    <input name="Frame Condition" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Frame Offset Distance (in) -->
+                <div class="u-flex">
+                    <label for="Frame Offset Distance (in)">Frame Offset Distance (in):</label>
+                    <input name="Frame Offset Distance (in)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Frame Seal Inflow -->
+                <div class="u-flex">
+                    <label for="Frame Seal Inflow">Frame Seal Inflow:</label>
+                    <input name="Frame Seal Inflow" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
 
             </div>
-            
-            <div class="row twelve columns u-flex title-row">
+            <!-- End Grid 1 -->
 
-                <h5 class="title">New Leak Report</h4>
+            <!-- Grid 2
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="grid-column grid-column-2 four columns">
 
+                <!-- Chimney Material -->
+                <div class="u-flex">
+                    <label for="Chimney Material">Chimney Material:</label>
+                    <input name="Chimney Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Chimney Depth (ft) -->
+                <div class="u-flex">
+                    <label for="Chimney Depth (ft)">Chimney Depth (ft):</label>
+                    <input name="Chimney Depth (ft)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Chimney I/I -->
+                <div class="u-flex">
+                    <label for="Chimney I/I">Chimney I/I:</label>
+                    <input name="Chimney I/I" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Int. Chimney Lining -->
+                <div class="u-flex">
+                    <label for="Int. Chimney Lining">Int. Chimney Lining:</label>
+                    <input name="Int. Chimney Lining" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Ext Chimney Lining -->
+                <div class="u-flex">
+                    <label for="Ext Chimney Lining">Ext Chimney Lining:</label>
+                    <input name="Ext Chimney Lining" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Cone Type -->
+                <div class="u-flex">
+                    <label for="Cone Type">Cone Type:</label>
+                    <input name="Cone Type" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Cone Material -->
+                <div class="u-flex">
+                    <label for="Cone Material">Cone Material:</label>
+                    <input name="Cone Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Int. Cone Lining -->
+                <div class="u-flex">
+                    <label for="Int. Cone Lining">Int. Cone Lining:</label>
+                    <input name="Int. Cone Lining" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Ext. Cone Lining -->
+                <div class="u-flex">
+                    <label for="Ext. Cone Lining">Ext. Cone Lining:</label>
+                    <input name="Ext. Cone Lining" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Number of Steps -->
+                <div class="u-flex">
+                    <label for="Number of Steps">Number of Steps:</label>
+                    <input name="Number of Steps" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Step Material -->
+                <div class="u-flex">
+                    <label for="Step Material">Step Material:</label>
+                    <input name="Step Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+            </div>
+            <!-- End Grid 2 -->
+
+            <!-- Grid 3
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <div class="grid-column grid-column-3 four columns">
+
+                <!-- Wall Material -->
+                <div class="u-flex">
+                    <label for="Wall Material">Wall Material:</label>
+                    <input name="Wall Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Wall Diameter (in) -->
+                <div class="u-flex">
+                    <label for="Wall Diameter (in)">Wall Diameter (in):</label>
+                    <input name="Wall Diameter (in)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Wall By Size (in) -->
+                <div class="u-flex">
+                    <label for="Wall By Size (in)">Wall By Size (in):</label>
+                    <input name="Wall By Size (in)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Int. Wall Lining -->
+                <div class="u-flex">
+                    <label for="Int. Wall Lining">Int. Wall Lining:</label>
+                    <input name="Int. Wall Lining" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Ext. Wall Lining -->
+                <div class="u-flex">
+                    <label for="Ext. Wall Lining">Ext. Wall Lining:</label>
+                    <input name="Ext. Wall Lining" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Bench Present? -->
+                <div class="u-flex">
+                    <label for="Bench Present?">Bench Present?</label>
+                    <input name="Bench Present?" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Bench Material -->
+                <div class="u-flex">
+                    <label for="Bench Material">Bench Material:</label>
+                    <input name="Bench Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Bench Lining -->
+                <div class="u-flex">
+                    <label for="Bench Lining">Bench Lining:</label>
+                    <input name="Bench Lining" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <div class="separator"></div>
+
+                <!-- Channel Installed -->
+                <div class="u-flex">
+                    <label for="Channel Installed">Channel Installed:</label>
+                    <input name="Channel Installed" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Channel Material -->
+                <div class="u-flex">
+                    <label for="Channel Material">Channel Material:</label>
+                    <input name="Channel Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Channel Type -->
+                <div class="u-flex">
+                    <label for="Channel Type">Channel Type:</label>
+                    <input name="Channel Type" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Channel Exposure -->
+                <div class="u-flex">
+                    <label for="Channel Exposure">Channel Exposure:</label>
+                    <input name="Channel Exposure" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+            </div>
+            <!-- End Grid 3 -->
+
+        </div>
+        <!-- End Section 3 -->
+
+        <div class="row">
+            <h6 class="section-title">Defect Summary</h6>
+        </div>
+
+        <!-- Section 4
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="row section section-4">
+
+            <!-- Inflow and Infiltration Defects -->
+            <div class="four columns u-flex">
+                <label for="Inflow and Infiltration Defects">Inflow and Infiltration Defects:</label>
+                <input name="Inflow and Infiltration Defects" type="text" value="">
+                <!-- Edit input's value -->
+            </div>
+
+            <!-- Structural Defects -->
+            <div class="three columns u-flex">
+                <label for="Structural Defects">Structural Defects:</label>
+                <input name="Structural Defects" type="text" value="">
+                <!-- Edit input's value -->
+            </div>
+
+            <!-- Operation and Maintenance Defects -->
+            <div class="five columns u-flex">
+                <label for="Operation and Maintenance Defects">Operation and Maintenance Defects:</label>
+                <input name="Operation and Maintenance Defects" type="text" value="">
+                <!-- Edit input's value -->
             </div>
 
         </div>
+        <!-- End Section 4 -->
+
+        <!-- Footer (duplicate for bottom of page 2)
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="row u-full-width footer">
+
+            <img class="other-logo" src="./assets/ic_evansville_logo.jpg">
+            <img class="hydromax-logo" src="./assets/ic_hydromax_logo.png">
+            <div class="sheet-id-container">
+                <label for="" class="sheet-id-label">MH ID:</label>
+                <span class="sheet-id-number">EditMe</span>
+            </div>
+
+        </div>
+        <!-- End Footer -->
 
     </div>
+    <!-- End Page 1 -->
 
     <!-- Page 2
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="sheet padding-10mm container">
 
+        <!-- Row 1 -->
         <div class="row twelve columns">
 
-            <!-- Asset Type -->
+            <!-- MH ID -->
             <div class="four columns u-flex">
-                <label class="color-gray first label" for="Asset Type">Asset Type:</label>
-                <input name="Asset Type" type="text" value="">
+                <label for="MH ID">MH ID:</label>
+                <input name="MH ID" type="text" value="">
                 <!-- Edit input's value -->
             </div>
 
-            <!-- Leak Location -->
+            <!-- Date -->
             <div class="four columns u-flex">
-                <label class="color-gray second-label" for="Leak Location">Leak Location:</label>
-                <input name="Leak Location" type="text" value="">
+                <label for="Date">Date:</label>
+                <input name="Date" type="text" value="">
                 <!-- Edit input's value -->
             </div>
-        
-            <!-- Number Barholes -->
+
+            <!-- Time -->
             <div class="four columns u-flex">
-                <label class="color-gray third-label" for="Number Barholes">Number Barholes:</label>
-                <input name="Number Barholes" type="text" value="">
+                <label for="Time">Time:</label>
+                <input name="Time" type="text" value="">
                 <!-- Edit input's value -->
             </div>
 
         </div>
+        <!-- End Row 1 -->
 
-        <div class="row twelve columns">
-
-            <!-- Leak Type -->
-            <div class="four columns u-flex">
-                <label class="color-gray first label" for="Leak Type">Leak Type:</label>
-                <input name="Leak Type" type="text" value="">
-                <!-- Edit input's value -->
-            </div>
-
-            <!-- Leak Grade -->
-            <div class="four columns u-flex">
-                <label class="color-gray second-label" for="Leak Grade">Leak Grade:</label>
-                <input name="Leak Grade" type="text" value="">
-                <!-- Edit input's value -->
-            </div>
-        
-            <!-- Leak Reading -->
-            <div class="four columns u-flex">
-                <label class="color-gray third-label" for="Leak Reading">Leak Reading:</label>
-                <input name="Leak Reading" type="text" value="">
-                <!-- Edit input's value -->
-            </div>
-
+        <div class="row">
+            <h6 class="section-title">Comments</h6>
         </div>
 
-        <div class="row twelve columns u-flex comment-row">
+        <!-- Section 5 (Comments) -->
+        <div class="row twelve columns section section-5">
 
-            <label class="color-gray first-label" for="comments">Comments:</label>
             <textarea name="comments" type="text" value=""></textarea>
             <!-- Edit textarea's value -->
 
         </div>
+        <!-- End Section 5 -->
+
+        <div class="row">
+            <h6 class="section-title">Pipe Connections</h6>
+        </div>
+
+        <!-- Section 6  -->
+
+        <div class="row twelve columns section section-6">
+
+            <div class="four columns">
+
+                <div class="row twelve columns">
+
+                    <!-- Pipe # -->
+                    <div class="four columns u-flex">
+                        <label for="Pipe #">Pipe #:</label>
+                        <input name="Pipe #" type="text" value="">
+                        <!-- Edit input's value -->
+                    </div>
+
+                    <!-- Diamter (in) -->
+                    <div class="eight columns u-flex">
+                        <label for="Diamter (in)">Diamter (in):</label>
+                        <input name="Diamter (in)" type="text" value="">
+                        <!-- Edit input's value -->
+                    </div>
+
+                </div>
+
+                <!-- Material -->
+                <div class="twelve columns u-flex">
+                    <label for="Material">Material:</label>
+                    <input name="Material" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Bearing (Degrees) -->
+                <div class="twelve columns u-flex">
+                    <label for="Bearing (Degrees)">Bearing (Degrees):</label>
+                    <input name="Bearing (Degrees)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Clock Position (o'clock) -->
+                <div class="twelve columns u-flex">
+                    <label for="Clock Position (o'clock)">Clock Position (o'clock):</label>
+                    <input name="Clock Position (o'clock)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Flow Direction -->
+                <div class="twelve columns u-flex">
+                    <label for="Flow Direction">Flow Direction:</label>
+                    <input name="Flow Direction" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Rim to Invert (ft) -->
+                <div class="twelve columns u-flex">
+                    <label for="Rim to Invert (ft)">Rim to Invert (ft):</label>
+                    <input name="Rim to Invert (ft)" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+                <!-- Seal Condition -->
+                <div class="twelve columns u-flex">
+                    <label for="Seal Condition">Seal Condition:</label>
+                    <input name="Seal Condition" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+            </div>
+
+            <div class="image-container four columns">
+
+                <div class="image-label-container">
+                    <label class="image-label">Zoom Photo:</label>
+                    <span class="image-name">EditMe</span>
+                </div>
+
+                <img class="image" src="source_material/sample-photo-1.jpg" alt="">
+                
+                <!-- Special Condition -->
+                <div class="twelve columns u-flex">
+                    <label for="Special Condition">Special Condition:</label>
+                    <input name="Special Condition" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+            </div>
+
+            <div class="image-container four columns">
+
+                <div class="image-label-container">
+                    <label class="image-label">Pipe Photo:</label>
+                    <span class="image-name">EditMe</span>
+                </div>
+
+                <img class="image" src="source_material/sample-photo-1.jpg" alt="">
+
+                <!-- Pipe Shape -->
+                <div class="twelve columns u-flex">
+                    <label for="Pipe Shape">Pipe Shape:</label>
+                    <input name="Pipe Shape" type="text" value="">
+                    <!-- Edit input's value -->
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End Section 6 -->
+
+        <div class="row">
+            <h6 class="section-title">Defects and Observations</h6>
+        </div>
+
+        <!-- Footer (duplicate for bottom of page 2)
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="row u-full-width footer">
+
+            <img class="other-logo" src="./assets/ic_evansville_logo.jpg">
+            <img class="hydromax-logo" src="./assets/ic_hydromax_logo.png">
+            <div class="sheet-id-container">
+                <label for="" class="sheet-id-label">MH ID:</label>
+                <span class="sheet-id-number">EditMe</span>
+            </div>
+
+        </div>
+        <!-- End Footer -->
 
     </div>
+    <!-- End Page 2 -->
 
 </body>
 </html>
